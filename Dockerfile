@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # 6. Exponemos el puerto (opcional pero recomendado)
-EXPOSE 3000
+EXPOSE 3001
 
 # 7. Comando de arranque
 CMD ["node", "index.js"]
